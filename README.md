@@ -14,13 +14,21 @@ assets 下载 realesrgan-ncnn-vulkan-20220424-windows
 
 ## realesrgan基础使用
 
-./realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n [model_name]
-model_name可选值：
+1. ./realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png
+2. ./realesrgan-ncnn-vulkan.exe -i input.jpg -o output.png -n realesr-animevideov3
+3. ./realesrgan-ncnn-vulkan.exe -i input_folder -o outputfolder -n realesr-animevideov3 -s 2 -f jpg
+4. ./realesrgan-ncnn-vulkan.exe -i input_folder -o outputfolder -n realesr-animevideov3 -s 4 -f jpg
+
+-i 输入文件或者文件夹
+-o 输出文件或者文件
+-n 模型可选值
 
 1. realesrgan-x4plus（默认）
 2. reaesrnet-x4plus
 3. realesrgan-x4plus-anime（针对动漫插画图像优化，有更小的体积）
 4. realesr-animevideov3 (针对动漫视频)
+-s 输出分辨率是输入的基本
+-f 输出格式
 
 ## 开始
 
