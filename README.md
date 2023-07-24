@@ -1,10 +1,15 @@
-# realesrgan
+# RealESRGAN
 
 ## 安装软件
 
-ffmpeg
+### ffmpeg
 
-realesrgan
+<https://www.gyan.dev/ffmpeg/builds/>
+release builds 选择 ffmpeg-release-essentials.zip
+下载解压
+把目录下的bin文件夹添加到系统环境变量中
+
+### realesrgan
 
 <https://github.com/xinntao/Real-ESRGAN/releases/tag/v0.2.5.0>
 
